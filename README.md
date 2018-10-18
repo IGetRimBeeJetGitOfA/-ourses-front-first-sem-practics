@@ -1,1 +1,1 @@
-# courses-front-first-sem-practics-
+# courses-front-first-sem-practics
