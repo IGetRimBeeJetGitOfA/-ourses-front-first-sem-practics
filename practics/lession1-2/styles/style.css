@@ -25,6 +25,7 @@ body{
     height: 46px;
     padding: 14px 0 0 37px;
     margin: 0px;
+    box-sizing: border-box;
 }
 .about-me{
     font-size: 23px;
