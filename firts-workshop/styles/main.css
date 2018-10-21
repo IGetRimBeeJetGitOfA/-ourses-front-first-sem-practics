@@ -13,13 +13,14 @@ body{
 }
 
 .header__title{
-    font-family: Arial;
+    font-family: Arial ;
     font-size: 50px;
     font-weight: normal;
     text-transform: uppercase;
     color: #1a1a1a;
     margin: 0px;
 }
+
 .header__subtitle{
     font-family: Arial;
     font-size: 27px;
@@ -33,9 +34,11 @@ body{
     margin: 0px;   
     padding: 0px;
 }
+
 .header__contacts{
     margin-top: 30px;
 }
+
 .contacts__item{
     display: inline-block;
     margin-right: 10px;
@@ -52,9 +55,11 @@ body{
     padding: 40px 0 510px 0;
     font-size: 0px;
 }
+
 .main__avatar{
     margin-bottom: 35px;
 }
+
 .main__left, .main__right{
     display: inline-block;
     vertical-align: top;
@@ -63,16 +68,16 @@ body{
 .main__left{
     width: 425px;
 }
+
 .main__right{
     width: 825px;
     box-sizing: border-box;
     padding-left: 65px;
 }
 
-.personal-info{
+.personal-info{}
 
-}
-.pesonal-info__title{
+.pesonal-info__title, .pesonal-experience__title{
     display: inline-block;
     padding: 10px 35px;
     background-color: #f2d629;
@@ -82,18 +87,79 @@ body{
     color:  #1a1a1a;
     margin: 0px;
 }
-.personal-info__content{
+
+.personal-info__content, .personal-experience__list{
     margin-top: 35px;
 }
+
 .personal-info__text{
     font-family: Arial;
     font-size: 18px;
     color: #1a1a1a;
     margin: 0;
 }
-.personal-info__text_bold{
+
+.text_bold{
     font-weight: bold;
 }
+
+.personal-experience{}
+
+.personal-experience__list{
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+.experience__item{
+    padding-bottom: 70px;
+}
+
+.experience-dates{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    color: #8c8c8c;
+    margin: 0px;
+}
+
+.experience-position{
+    font-size: 19px;
+    margin: 25px 0 0 0;
+
+}
+
+.company-info{
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.company__item{
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+    font-family: Arial ;
+    font-size: 19px;
+    color: #1a1a1a;
+}
+
+.company-name{
+    margin: 0px;
+}
+
+.item-divide{
+    margin: 0px;
+}
+
+.company__link{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.description{
+    font-family: Century Italic;
+    font-size: 19px;
+    margin: 25px 0 0 0;
+    color: #8c8c8c;
+}
+
 .footer{
     height: 45px;
     background-color: #f2d629;
