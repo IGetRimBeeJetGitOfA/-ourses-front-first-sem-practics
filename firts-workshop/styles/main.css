@@ -13,14 +13,13 @@ body{
 }
 
 .header__title{
-    font-family: Arial ;
+    font-family: Arial;
     font-size: 50px;
     font-weight: normal;
     text-transform: uppercase;
     color: #1a1a1a;
     margin: 0px;
 }
-
 .header__subtitle{
     font-family: Arial;
     font-size: 27px;
@@ -68,7 +67,6 @@ body{
 .main__left{
     width: 425px;
 }
-
 .main__right{
     width: 825px;
     box-sizing: border-box;
