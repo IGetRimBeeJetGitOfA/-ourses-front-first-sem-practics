@@ -1,5 +1,5 @@
 body{
-    margin: 0px;
+    margin: 0;
 }
   
 .header, .main{
@@ -18,20 +18,20 @@ body{
     font-weight: normal;
     text-transform: uppercase;
     color: #1a1a1a;
-    margin: 0px;
+    margin: 0;
 }
 .header__subtitle{
     font-family: Arial;
     font-size: 27px;
     font-weight: normal;
     color: #1a1a1a;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .contacts{
     list-style: none;
-    margin: 0px;   
-    padding: 0px;
+    margin: 0;   
+    padding: 0;
 }
 
 .header__contacts{
@@ -52,30 +52,28 @@ body{
 
 .main{
     padding: 40px 0 510px 0;
-    font-size: 0px;
+    font-size: 0;
 }
 
 .main__avatar{
     margin-bottom: 35px;
 }
 
-.main__left, .main__right{
+.main__general-info, .main__experience-info{
     display: inline-block;
     vertical-align: top;
 }
 
-.main__left{
+.main__general-info{
     width: 425px;
 }
-.main__right{
+.main__experience-info{
     width: 825px;
     box-sizing: border-box;
     padding-left: 65px;
 }
 
-.personal-info{}
-
-.pesonal-info__title, .pesonal-experience__title{
+.pesonal-info__title {
     display: inline-block;
     padding: 10px 35px;
     background-color: #f2d629;
@@ -83,7 +81,7 @@ body{
     font-weight: bold;
     font-size: 23px;
     color:  #1a1a1a;
-    margin: 0px;
+    margin: 0;
 }
 
 .personal-info__content, .personal-experience__list{
@@ -101,36 +99,29 @@ body{
     font-weight: bold;
 }
 
-.personal-experience{}
-
 .personal-experience__list{
     list-style: none;
-    padding: 0 0 0 0;
+    padding: 0;
 }
 
 .experience__item{
-    padding-bottom: 70px;
+    padding-bottom: 65px;
 }
 
 .experience-dates{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans';
     font-size: 19px;
     color: #8c8c8c;
-    margin: 0px;
+    margin: 0;
 }
 
 .experience-position{
     font-size: 19px;
     margin: 25px 0 0 0;
-
 }
 
 .company-info{
-    padding: 0px;
-    margin-top: 0px;
-}
-
-.company__item{
+    padding: 0;
     display: inline-block;
     margin: 10px 10px 10px 0;
     font-family: Arial ;
@@ -138,17 +129,11 @@ body{
     color: #1a1a1a;
 }
 
-.company-name{
-    margin: 0px;
-}
-
-.item-divide{
-    margin: 0px;
-}
-
 .company__link{
+    display: inline-block;
     text-decoration: none;
     color: #1a1a1a;
+    font-size: 19px;
 }
 
 .description{
