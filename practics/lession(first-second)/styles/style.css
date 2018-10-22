@@ -12,26 +12,22 @@ body{
     width: 428px;
     height: 350px;
 }
-.right{
+.personal-info{
     display: inline-block;
     width: 744px;
-    height: 522px;
     margin-left: 61px;
     padding: 0px;
 }
-.header{
+.about-me{
+    box-sizing: border-box;
     background-color: #e8c734;
     width: 744px;
-    height: 46px;
-    padding: 14px 0 0 37px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-.about-me{
+    padding: 14px 0 14px 37px;
+    margin: 0;
     font-size: 23px;
     font-family: Arial;
-    margin:0px;
 }
+
 .about-you{
     width: 743px;
     height: 79px;
