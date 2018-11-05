@@ -1,3 +1,13 @@
+@font-face{
+    font-family: Hind;
+    src: url(https://fonts.google.com/specimen/Hind);
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+}
+
 .post{
     width: 362px;
     height: 557px;
@@ -24,10 +34,12 @@
     box-sizing: border-box; 
 
 }
+
 .header-img{
     width: 26px;
     height: 20px;
 }
+
 .post__info{
     margin-top: 66px;
     text-align: center;
@@ -36,7 +48,7 @@
 
 .topic_title, .post_date, .comments{
     margin: 0;
-    font-family: Arial;
+    font-family: Hind;
     letter-spacing: 1px;
     font-size: 14px;
     text-transform: uppercase;
@@ -46,19 +58,20 @@
 .post_title{
     margin: 10px 0;
     font-size: 20px;
-    font-family: Arial;
+    font-family: Montserrat;
     letter-spacing: 1px;
     line-height: 28px;
     text-transform: uppercase;
     font-weight: bold;
     color: #212121;
 }
+
 .post__button{
     position: relative;
     margin-top: 36px;
     text-align: center;
     padding: 0;
-    font-family: Arial;
+    font-family: Hind;
     letter-spacing: 3px;
     font-size: 14px;
     line-height: 28px;
@@ -74,6 +87,7 @@
     content: "";
     left: 160px;
 }
+
 .post__button:after{
     position: absolute;
     border-bottom: 1px solid #d6d6d6;
@@ -82,6 +96,7 @@
     content: "";
     left: 160px;
 }
+
 .post__button:hover, .post__button:hover:before, .post__button:hover:after{
     color: #d67900;
     border-top-color: #d67900;
@@ -92,6 +107,7 @@
     margin-top: 60px;
     margin-left: 30px;
 }
+
 .comments-icon{
     display: inline-block;
 }
