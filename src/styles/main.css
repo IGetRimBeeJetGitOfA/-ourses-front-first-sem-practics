@@ -27,3 +27,29 @@
     width: 26px;
     height: 20px;
 }
+.post__info{
+    margin-top: 66px;
+    text-align: center;
+    padding: 0;
+}
+
+.topic_title, .post_date{
+    margin: 0;
+    font-family: Arial;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.post_title{
+    margin: 18px 0;
+
+    font-size: 20px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #212121;
+}
