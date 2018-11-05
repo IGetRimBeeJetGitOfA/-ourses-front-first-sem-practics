@@ -34,7 +34,7 @@
     padding: 0;
 }
 
-.topic_title, .post_date{
+.topic_title, .post_date, .comments{
     margin: 0;
     font-family: Arial;
     letter-spacing: 1px;
@@ -88,3 +88,16 @@
     border-bottom-color: #d67900;
 }
 
+.post__comments{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.comments-icon{
+    display: inline-block;
+}
+
+.comments{
+    padding: 0;
+    margin-left: 10px;
+    display: inline-block;
+}
