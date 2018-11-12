@@ -12,24 +12,22 @@
     width: 362px;
     height: 557px;
     box-shadow: 0 0 20px rgba(1, 1, 1, 0.5);
-    z-index: 1;
-    position: absolute;
+    position: relative;
     left:auto;
 }
 
-.post__header{
-    background-image: url(../images/header-img.png);
+.header-image{
+    width: 362px;
     height: 245px;
 }
 
 .post__icon{
-    background-color: black;
+    background: black url(../images/img-icon.svg) center no-repeat;
     width: 41px;
     height: 33px;
     top: 236px;
-    left: 167px;
+    left: calc(100%/2 - 20px);
     position: absolute;
-    z-index: 2;
     padding: 7px 7px;
     box-sizing: border-box; 
 
