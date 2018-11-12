@@ -1,0 +1,40 @@
+body{
+    background-color: #ffffff;
+    max-width: 1400px;
+    max-height: 440px;
+}
+
+.your-picture{
+    width: 428px;
+    height: 350px;
+    padding-top: 45px;
+    padding-left: 79px;
+    display: inline-block;
+}
+.right{ 
+    width: 893px;
+    height: 440px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.header{
+    width: 744px;
+    height: 46px;
+    background-color: #e8c734;
+    padding-left: 37px;
+    padding-top: 14px; 
+    margin: 0px;
+}
+.about-me{
+    font-size: 24px;
+    margin: 0px;
+    display: inline-block;    
+}
+.about-you{
+    font-size: 15px;
+    color: blue;
+    width: 793px;
+    height: 79px;
+    display: inline-block;
+}    
