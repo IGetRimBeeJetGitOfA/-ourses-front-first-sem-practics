@@ -58,11 +58,10 @@
     position: relative;
     margin-top: 36px;
     text-align: center;
-    padding: 0;
+    padding: 10px 0;
     font-family: Hind;
     letter-spacing: 3px;
     font-size: 14px;
-    line-height: 28px;
     text-transform: uppercase;
     color: #999;
 }
@@ -73,7 +72,7 @@
     top:0;
     width: 30px;
     content: "";
-    left: 160px;
+    left: calc(100%/2 - 20px);
 }
 
 .post__button:after{
@@ -82,7 +81,7 @@
     top:100%;
     width: 30px;
     content: "";
-    left: 160px;
+    left: calc(100%/2 - 20px);
 }
 
 .post__button:hover, .post__button:hover:before, .post__button:hover:after{
