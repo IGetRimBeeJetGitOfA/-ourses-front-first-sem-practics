@@ -1,13 +1,3 @@
-@font-face{
-    font-family: Hind;
-    src: url(https://fonts.google.com/specimen/Hind);
-}
-
-@font-face{
-    font-family: Montserrat;
-    src: url(https://fonts.google.com/specimen/Montserrat);
-}
-
 .post{
     width: 362px;
     height: 557px;
@@ -16,7 +6,7 @@
     left:auto;
 }
 
-.header-image{
+.post__header-image{
     width: 362px;
     height: 245px;
 }
